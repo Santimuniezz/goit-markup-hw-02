@@ -1,9 +1,20 @@
-
-.social-links .link {
-    color: #404BBF;
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
 }
-
-.social-links .link:hover
-.social-links .link:focus {
-    color: #404BBF;
+@font-face {
+    font-family: "Roboto-Black";
+    src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
 }
