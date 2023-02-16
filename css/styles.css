@@ -18,24 +18,104 @@
     font-family: "Roboto-Regular";
     src: url(../fonts/Roboto-Regular.ttf);
 }
-body{
-    font-family: 'Raleway', sans-serif;
-        font-family: 'Roboto', sans-serif;
-        color: #434455
+
+:root {
+    --active-links-color: #4D5AE5;
+    --ctas-color: #404BBF;
+    --headings-color: #2E2F42;
+    --valid-fields-color: #31D0AA;
+    --body-text-color: #434455;
+    --subtle-text-color: #8E8F99;
+    --subtle-background-color: #E7E9FC;
+    --light-mode-background-color: #F4F4FD;
+    --overlay-color: #2E2F42;
+    --hero-image-background-color: #2E2F42;
+    --background-lite-color: #FFFFFF;
 }
-.page {}
+.page {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
 
-.page-header {}
+a{
+    text-decoration: none;
+}
 
-.link {}
+li{
+    list-style-type: none;
+}
 
-.social-links {}
+/* Header */
 
-.site-nav {}
+.page-header {
+    background-color: #FFFFFF;
+}
 
-.link-to {}
+.logo {
+    color: var(--headings-color) font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+}
 
-.tel-to {}
+.logo-blue {
+    color: var(--active-links-color);
+}
+
+.link {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+}
+
+.link-to {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--body-text-color);
+}
+
+.link-to:hover {
+    color: var(--ctas-color);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--hero-image-background-color);
+}
+
+.hero-title {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        color:var(--background-lite-color);
+}
+
+.btn {
+    background-color: var(--active-links-color);
+    color: var(--background-lite-color);
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+}
+.btn:hover{
+    background-color: var(--ctas-color);
+}
+
+/* Section 1 */
 
 .section {}
 
@@ -51,8 +131,43 @@ body{
 
 .main-next {}
 
-.main-text {}
-
 .footer {}
 
 .footer-text {}
+
+
+
+
+
+
+
+.section-1 {}
+
+.main-list {}
+
+.list-title {}
+
+.main-text {}
+
+.section-2 {}
+
+.section-title {}
+
+.images {}
+
+.section-3 {}
+
+.team-box {}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
