@@ -35,7 +35,7 @@
 
 }
 .page {
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -61,7 +61,7 @@ li{
 
 .logo {
     color: var(--headings-color);
-     font-family: 'Raleway';
+     font-family: Raleway;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -74,7 +74,7 @@ li{
     color: var(--active-links-color);
     width: 44px;
         height: 24px;
-        font-family: 'Raleway';
+        font-family: Raleway;
             font-style: normal;
             font-weight: 800;
             font-size: 18px;
@@ -82,7 +82,7 @@ li{
 }
 
 .link {
-    font-family: 'Roboto';
+    font-family: Roboto;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -90,7 +90,7 @@ li{
 }
 
 .link-to {
-font-family: 'Roboto';
+font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -107,7 +107,7 @@ font-family: 'Roboto';
 .hero {
     background-color: var(--hero-image-background-color);
     color:var(--background-lite-color);    
-    font-family: 'Roboto';
+    font-family: Roboto;
         font-style: normal;
         font-weight: 700;
             font-size: 56px;
@@ -115,7 +115,7 @@ font-family: 'Roboto';
 }
 
 .hero-title {
-    font-family: 'Roboto';
+    font-family: Roboto;
         font-style: normal;
         font-weight: 700;
         font-size: 56px;
@@ -126,7 +126,7 @@ font-family: 'Roboto';
 .btn {
     background-color: var(--active-links-color);
     color: var(--background-lite-color);
-    font-family: 'Roboto';
+    font-family: Roboto;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -134,7 +134,7 @@ font-family: 'Roboto';
         cursor: pointer;        
 }
 
-.btn:hover{
+.btn:hover, .btn:focus{
     background-color: var(--ctas-color);
 }
 
@@ -150,7 +150,7 @@ font-family: 'Roboto';
 
 .list-title {
     color:var(--overlay-color);
-        font-family: 'Roboto';
+        font-family: Roboto;
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
@@ -159,7 +159,7 @@ font-family: 'Roboto';
 
 .main-text {
     color:var(--body-text-color);
-        font-family: 'Roboto';
+        font-family: Roboto;
             font-style: normal;
             font-weight: 400;
             font-size: 16px;
@@ -169,7 +169,7 @@ font-family: 'Roboto';
 /* Section 2 */
 
 .section-title {
-    font-family: 'Roboto';
+    font-family: Roboto;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -189,7 +189,7 @@ font-family: 'Roboto';
 
 .section-3-subtitle{
     color: var(--overlay-color);
-    font-family: 'Roboto';
+    font-family: Roboto;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -198,7 +198,7 @@ font-family: 'Roboto';
 
 .section-3-text{
     color: var(--body-text-color);
-    font-family: 'Roboto';
+    font-family: Roboto;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -206,27 +206,27 @@ font-family: 'Roboto';
 }
 
 .footer {
-    background-color: var(--overlay-color); 
+    background-color: var(--overlay-color);
 }
 
-.logo-footer{
+.logo-footer {
     color: var(--light-mode-background-color);
-    font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.16;
-        width: 71px;
-            height: 22px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    width: 71px;
+    height: 22px;
 }
 
 .footer-text {
     color: var(--subtle-background-color);
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 /* Portfolio */
@@ -234,24 +234,27 @@ font-family: 'Roboto';
 .btn-page {
     background-color: var(--light-mode-background-color);
     color: var(--active-links-color);
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    cursor: pointer;
 }
 
-.btn-page:hover {
+.btn-page:hover, .btn-page:focus {
     background-color: var(--ctas-color);
     color: var(--background-lite-color);
 }
 
+
 .main-title{
     color: var(--overlay-color);
-    font-family: 'Roboto';
+    font-family: Roboto;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
 }
+
 
