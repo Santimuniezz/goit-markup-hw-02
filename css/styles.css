@@ -64,14 +64,11 @@ li{
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
-    width: 71px;
-        height: 24px;
+  
 }
 
 .logo-blue {
     color: var(--active-links-color);
-    width: 44px;
-        height: 24px;
         font-family: Raleway;
             font-style: normal;
             font-weight: 800;
@@ -138,13 +135,6 @@ font-family: Roboto;
 
 /* Section 1 */
 
-.section {
-    position: absolute;
-        width: 1128px;
-        height: 104px;
-        left: 156px;
-        top: 792px;
-}
 
 .list-title {
     color:var(--overlay-color);
@@ -214,8 +204,7 @@ font-family: Roboto;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
-    width: 71px;
-        height: 22px;
+
 }
 
 .footer-text {
@@ -232,6 +221,7 @@ font-family: Roboto;
 .btn-page {
     background-color: var(--light-mode-background-color);
     color: var(--active-links-color);
+    border-color: var(--subtle-background-color);
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
